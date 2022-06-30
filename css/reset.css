@@ -1,0 +1,103 @@
+
+body,p,h1,h2,h3,h4{
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+img{
+	border: none;
+	vertical-align: middle;/*设置垂直对齐方式 */
+}
+a{
+	text-decoration:none ;/*添加文本修饰如下划线等等 */
+	color: #3c3c3c;
+}
+i{
+	font-style: normal;
+}
+input,button{ 
+	margin: 0;
+	padding: 0;
+}
+button{
+	outline: none;
+
+}
+table{
+	 border-collapse: collapse;/*将边框合并为一个单一的边框 */
+}
+th,td{
+	padding: 0;
+}
+body{
+	font:  12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif; /*这里的\5b8b\4f53表示宋体*/
+	color: #3c3c3c;
+	background-color: #f4f4f4;
+}
+
+.clearfix:after{  /*清除浮动用*/
+	content: '';
+	display: block;
+	clear: both;/*清除左右两边的浮动*/
+}
+
+.fl{
+	float: left;
+
+}
+.fr{
+	float: right;
+}
+
+.layer{ /* 设置整个淘宝的内容在中间*/
+	width: 1190px;
+	margin: 0 auto;
+}
+.c4{
+	color: #f40;
+
+}
+.c5{
+	color: #f50;
+
+}
+.c6{
+	color: #8d7afb;
+}
+.c7{
+	color: #a8c001;
+}
+.mr5{
+	margin-right: 5px;
+}
+.mr7{
+	margin-right: 7px;
+}
+.mt10{
+	margin-top: 10px;
+
+}
+.mr10{
+	margin-right: 10px;
+}
+/* 隐藏导航栏部分样式代码 */
+   .typearea {
+	width: 1190px;
+	margin: 0 auto;
+	}
+   body {
+	background-color: #F5F5F5;
+	}
+   .typearea>div {
+	background-color: #fff;
+	}
+   li {
+	list-style: none;
+	}
+   a {
+	text-decoration: none;
+	}
